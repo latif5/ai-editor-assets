@@ -4,7 +4,8 @@
   "description": "Generate square webp thumbnails from source images",
   "main": "generate-thumbnails.js",
   "scripts": {
-    "start": "node generate-thumbnails.js"
+    "start": "node generate-thumbnails.js",
+    "convert": "node convert-to-webp.js"
   },
   "dependencies": {
     "sharp": "^0.33.2"
